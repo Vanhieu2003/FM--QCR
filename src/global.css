@@ -1,0 +1,52 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+
+
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+
+
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+
+
+
+.scheduler-component {
+  float: left;
+}
+
+.e-quick-popup-wrapper .e-event-popup .e-popup-footer {
+  display: block;
+}
+
+.schedule-customization.e-schedule .e-header-popup .e-header-calendar.e-calendar {
+  min-width: 360px;
+}
+
+.schedule-customization.e-schedule .e-header-popup .e-header-calendar.e-calendar .e-content.e-year td>span.e-day,
+
+.schedule-customization.e-schedule .e-header-popup .e-header-calendar.e-calendar .e-content.e-decade td>span.e-day {
+  width: 100%;
+}
+
+
+.e-quick-popup-wrapper .e-cell-popup .e-popup-content {
+  padding: 10px 0;
+}
+
+.e-quick-popup-wrapper .e-event-popup .e-popup-content {
+  padding: 10px;
+}
